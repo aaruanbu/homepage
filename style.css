@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+     background-image: url("\img/loby.jpg");	
+     	 background-color:#3d3d61;
+		 background-size:cover;
+		 background-blend-mode:overlay;
+		 
+		 
+}
+.container{
+	display:flex;
+    margin:0 auto;
+}
+.row{
+	width:30%;
+    color:red;
+	padding:0 20px;
+}
+.col1{
+	margin-top:20px;
+	text-align:left;
+}
+.col2{
+	display:flex;
+    width:60%;
+    margin-top:20px;
+	padding-bottom:2px;
+    	
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+}
+.u1{
+    display: flex;
+    justify-content:space-evenly;
+    width: 90%;
+	align-items:center;
+}
+li{
+	list-style:none;
+}
+.col3{
+	text-decoration:none;
+	padding:8px 25px;
+	background-color:red;
+	color:white;
+	border-radius:20px;
+	margin-top:20px;
+	
+}
+#id{
+	text-decoration:none;
+	color:white;
+	font-size:13px;	
+}
+section{
+	text-align:center;
+	}
+.big{
+	text-align:center;
+	font-size:35px;
+	padding:17%;
+}
+}
+.a:hover::after{
+	transform:scalex(1);
+	transform-origin:bottom left;
+}
+.a:hover{
+	text-decoration: underline 0.15em yellow;
+	transition:transform 0.22s ease-in;	
+}
+#id
